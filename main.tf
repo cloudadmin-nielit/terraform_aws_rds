@@ -7,7 +7,7 @@ resource "aws_db_instance" "my_rds" {
 
   db_name                 = "testdb"
   username                = "admin"
-  password                = "Admin@12345"
+  password                = "Admin12345"
 
   publicly_accessible     = true
   skip_final_snapshot     = true
@@ -16,3 +16,4 @@ resource "aws_db_instance" "my_rds" {
     Name = "MyTerraformRDS"
   }
 }
+
